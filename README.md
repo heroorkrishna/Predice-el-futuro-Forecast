@@ -23,7 +23,4 @@ A solution.csv file will have to be submitted in order to enter the leaderboard.
 id: observation ID
 feature: the predicted value of feature column
 
-
-$$$$$$$$$$$$$$$$$$###################################################
-
-I have used the LSTM ml model to predict the next outcome. I first split the data into 80/20 train/test. Then convert the x_train and y_train into NumPy array then reshape those arrays to shape accepted by LSTM models. Thenbuild t the LSTM network model, thereafter compiling the model and then training the model at 100 epochs.Then creating the test data for x_test and y_test and then converting it into np array and reshaping it similarly we did for train data.Then we make predictions and calculate the next 10min outcome and calculate the RMSE Score(112.14).Finally making a plot of test and prediction.
+I have used the LSTM model to predict the next outcome. I first split the data into 80/20 train/test. Then convert the x_train and y_train into NumPy array then reshape those arrays to shape accepted by LSTM models. Thenbuild t the LSTM network model, thereafter compiling the model and then training the model at 100 epochs.Then creating the test data for x_test and y_test and then converting it into np array and reshaping it similarly we did for train data.Then we make predictions and calculate the next 10min outcome and calculate the RMSE Score(112.14).Finally making a plot of test and prediction.
